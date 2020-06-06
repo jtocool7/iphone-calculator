@@ -221,20 +221,20 @@
   
   const getResultOfOperationAsStr = () => {
   const currentValueNum = getValueAsNum();
-  const valeNumInMemory = parseFloat(valueStrInMemory);
+  const valueNumInMemory = parseFloat(valueStrInMemory);
   let newValueNum;
-  if (operatorInMemory === 'addition'){
-  newValueNum = valueStrInMemory + currentValueNum;
-  }else if (operatorInMemory === 'subtraction'){
-  newValueNum = valueStrInMemory - currentValueNum;
-  }else if (operatorInMemory === 'multipulcation'){
-  newValueNum = valueStrInMemory * currentValueNum;
-  }else if (operatorInMemory === 'division'){
-  newValueNum = valueStrInMemory / currentValueNum;
+  if (operatorInMemory === 'addition') {
+    newValueNum = valueNumInMemory + currentValueNum;
+  } else if (operatorInMemory === 'subtraction') {
+    newValueNum = valueNumInMemory - currentValueNum;
+  } else if (operatorInMemory === 'multiplication') {
+    newValueNum = valueNumInMemory * currentValueNum;
+  } else if (operatorInMemory === 'division') {
+    newValueNum = valueNumInMemory / currentValueNum;
   }
-  
+
   return newValueNum.toString();
-  };
+};
   
   const handleOperatorClick = (operation) => {
   const currentValueStr = getValueAsStr();
