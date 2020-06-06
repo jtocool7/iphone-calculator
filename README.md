@@ -44,7 +44,7 @@
     text-align:right;
     margin-right:20px;
     font-family: Calibri;
-    overflow-y: auto;
+    overflow-x: auto;
     
    }
    
