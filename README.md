@@ -235,6 +235,7 @@
 
   return newValueNum.toString();
 };
+
   
   const handleOperatorClick = (operation) => {
   const currentValueStr = getValueAsStr();
