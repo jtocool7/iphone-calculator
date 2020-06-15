@@ -227,7 +227,7 @@
     newValueNum = valueNumInMemory + currentValueNum;
   } else if (operatorInMemory === 'subtraction') {
     newValueNum = valueNumInMemory - currentValueNum;
-  } else if (operatorInMemory === 'multiplication') {
+  } else if (operatorInMemory === 'multipulcation') {
     newValueNum = valueNumInMemory * currentValueNum;
   } else if (operatorInMemory === 'division') {
     newValueNum = valueNumInMemory / currentValueNum;
